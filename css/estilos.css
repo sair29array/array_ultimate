@@ -1,0 +1,770 @@
+@charset "UTF-8";
+/*estilos globales*/
+/* line 2, sass/_generales.sass */
+html,
+body,
+main {
+  background: #FFFFFF;
+  font-family: Poppins;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+/* line 10, sass/_generales.sass */
+.barra-x-hidden {
+  overflow-x: hidden; }
+
+/* line 12, sass/_generales.sass */
+.barra-y-hidden {
+  overflow-y: hidden; }
+
+/* line 14, sass/_generales.sass */
+.margen-superior {
+  margin-top: 70px; }
+
+/* line 16, sass/_generales.sass */
+.view {
+  background: url("../img/banner-1.png") no-repeat center fixed;
+  background-size: cover;
+  /* efecto de zoom*/ }
+
+/* line 20, sass/_generales.sass */
+.zoom:hover {
+  box-shadow: 0px 0px 8px grey;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+/* line 1, sass/_vision-mision.sass */
+.vision-mision {
+  background: #f2f2f2; }
+
+/*portafolio*/
+/* line 2, sass/_portafolio.sass */
+.portafolio {
+  margin-top: 70px;
+  background: #f2f2f2; }
+
+/* line 5, sass/_portafolio.sass */
+.portafolio .card {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 8px; }
+
+/* line 10, sass/_portafolio.sass */
+.portafolio .card:hover {
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+/* line 13, sass/_portafolio.sass */
+.portafolio .card-header {
+  background-size: cover;
+  height: 140px;
+  width: auto; }
+
+/* line 17, sass/_portafolio.sass */
+.portafolio .card-title {
+  font-size: 23px;
+  /*nombre de las tarjetas*/ }
+
+/* line 20, sass/_portafolio.sass */
+.libertad {
+  background: url("../img/diseno-web/libertad.png"); }
+
+/* line 22, sass/_portafolio.sass */
+.rentacards4u {
+  background: url("../img/diseno-web/rentcars.png"); }
+
+/* line 24, sass/_portafolio.sass */
+.darkclub {
+  background: url("../img/diseno-web/dark-club.png"); }
+
+/* line 26, sass/_portafolio.sass */
+.complices {
+  background: url("../img/diseno-web/complices.png"); }
+
+/* line 28, sass/_portafolio.sass */
+.donde-aquellos {
+  background: url("../img/diseno-web/donde-aquellos.png"); }
+
+/* line 30, sass/_portafolio.sass */
+.mobiliarios {
+  background: url("../img/diseno-web/mobiliarios-farmasa.png"); }
+
+/* line 32, sass/_portafolio.sass */
+.proinsumos {
+  background: url("../img/diseno-web/proinsumos.png"); }
+
+/* line 34, sass/_portafolio.sass */
+.historias-no-contadas {
+  background: url("../img/diseno-web/historias-no-contadas.png"); }
+
+/* line 36, sass/_portafolio.sass */
+.hotel-klary {
+  background: url("../img/diseno-web/hotel-klary.png"); }
+
+/*titulo de cada card del portafolio*/
+/* line 39, sass/_portafolio.sass */
+.title-portafolio {
+  color: #ff3a5f;
+  font-weight: 600; }
+
+/*botones gradientes*/
+/* line 2, sass/_botones.sass */
+.boton1 {
+  background: #3a3a50;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+/* line 17, sass/_botones.sass */
+.boton1:hover {
+  background: #00BCD4; }
+
+/* line 19, sass/_botones.sass */
+.boton1:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 21, sass/_botones.sass */
+.boton2 {
+  background: #00BCD4;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+/* line 36, sass/_botones.sass */
+.boton2:hover {
+  background: #3a3a50; }
+
+/* line 38, sass/_botones.sass */
+.boton2:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 40, sass/_botones.sass */
+.boton-c {
+  background: linear-gradient(30deg, #3a3a50, #00BCD4);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+/* line 55, sass/_botones.sass */
+.boton-c:hover {
+  background: linear-gradient(30deg, #00BCD4, #ff3a5f); }
+
+/* line 57, sass/_botones.sass */
+.boton-c:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 59, sass/_botones.sass */
+.boton-google, .boton-login {
+  background: linear-gradient(30deg, #E53935, #EF5350);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem;
+  width: 100%; }
+
+/* line 75, sass/_botones.sass */
+.boton-google:hover {
+  background: linear-gradient(30deg, #EF5350, #E53935); }
+
+/* line 77, sass/_botones.sass */
+.boton-google:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 79, sass/_botones.sass */
+.boton-login {
+  background: linear-gradient(30deg, #3a3a50, #00BCD4); }
+
+/* line 81, sass/_botones.sass */
+.boton-login:hover {
+  background: linear-gradient(30deg, #00BCD4, #ff3a5f); }
+
+/* line 83, sass/_botones.sass */
+.boton-login:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 85, sass/_botones.sass */
+.title-btn-social {
+  font-size: 1.2em; }
+
+/* Footer */
+/* line 2, sass/_footer.sass */
+footer {
+  background: #263238;
+  position: relative; }
+
+/* line 5, sass/_footer.sass */
+footer hr {
+  background: #00b2f4;
+  border: 0;
+  height: 5px; }
+
+/* line 9, sass/_footer.sass */
+footer a:hover {
+  color: #00b2f4; }
+
+/* line 11, sass/_footer.sass */
+.texto-secundario {
+  color: #00b2f4; }
+
+/* estilos loader page */
+/* line 2, sass/_loader-page.sass */
+#contenedor {
+  background: #FFFFFF;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  transition: all 1s;
+  z-index: 10000; }
+
+/* line 9, sass/_loader-page.sass */
+#cargar {
+  border: 8px solid #eeeeee;
+  border-top-color: #f43458;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-animation: girar 0.3s linear infinite;
+  animation: girar 0.3s linear infinite; }
+
+@-webkit-keyframes girar {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes girar {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+/*mapa somos*/
+/* line 2, sass/_tierra-girando.sass */
+.tierra {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: -30px -30px 0 -10px rgba(0, 0, 0, 0.15) inset, -60px -20px 0 0 rgba(0, 0, 0, 0.1) inset, 5px 5px 0 0 rgba(255, 255, 255, 0.2);
+  background: url(../img/mapa.png);
+  background-size: cover;
+  -webkit-animation: tierra-girando 15s infinite linear;
+  -moz-animation: tierra-girando 15s infinite linear;
+  -o-animation: tierra-girando 15s infinite linear; }
+
+@-webkit-keyframes tierra-girando {
+  0% {
+    background-position: 0 center; }
+  100% {
+    background-position: -796px center; } }
+
+@keyframes tierra-girando {
+  0% {
+    background-position: 0 center; }
+  100% {
+    background-position: -796px center; } }
+
+/*navbar*/
+/* line 2, sass/_navbar.sass */
+.navbar {
+  background-color: #1e1f20;
+  font-size: 18px;
+  text-transform: uppercase; }
+
+/* line 6, sass/_navbar.sass */
+.navbar a:hover {
+  color: #42a5f5; }
+
+/* line 8, sass/_navbar.sass */
+.navbar a {
+  color: #FFFFFF; }
+
+/* line 10, sass/_navbar.sass */
+.navbar-toggler {
+  color: white; }
+
+/* line 12, sass/_navbar.sass */
+.scrolling-navbar {
+  transition: background .5s ease-in-out, padding .5s ease-in-out; }
+
+/* line 17, sass/_navbar.sass */
+.top-nav-collapse {
+  background-image: url("../img/img-nav.jpg");
+  border-bottom: 2.5px solid #141922; }
+
+/* line 20, sass/_navbar.sass */
+.welcome {
+  margin-top: 70px; }
+
+/* line 22, sass/_navbar.sass */
+.linea-bottom {
+  color: #0277bd !important;
+  border-bottom: 3px solid #0277bd; }
+
+/* line 25, sass/_navbar.sass */
+.title-view-desktop {
+  font-size: 70px; }
+
+/* line 27, sass/_navbar.sass */
+.title-view-mobile {
+  font-size: 34px; }
+
+/* line 29, sass/_navbar.sass */
+.img-logo {
+  max-width: 200px;
+  max-height: 70px; }
+
+/* estilos section somos-tic */
+/* line 2, sass/_somos-tic.sass */
+.somos-tic {
+  background: #334960;
+  color: #FFFFFF; }
+
+/* line 5, sass/_somos-tic.sass */
+.img-somos {
+  align-content: center;
+  width: 100%;
+  height: 100%; }
+
+/* line 9, sass/_somos-tic.sass */
+.somos_about_img {
+  max-width: 90px;
+  max-height: 90px; }
+
+/* line 12, sass/_somos-tic.sass */
+.tarjeta {
+  font-size: 16px; }
+
+/* line 14, sass/_somos-tic.sass */
+#fa-somos {
+  color: #FF9800; }
+
+/* line 16, sass/_somos-tic.sass */
+.title-somos {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 900; }
+
+/* line 20, sass/_somos-tic.sass */
+.img-cohete {
+  max-width: 380px; }
+
+/* section metodologia de trabajo */
+/* line 2, sass/_metodologia.sass */
+.m-trabajo {
+  background: #ebeced;
+  background-size: cover;
+  font-weight: 600;
+  color: #3a3a50; }
+
+/* line 7, sass/_metodologia.sass */
+.m-trabajo img {
+  max-height: 100px; }
+
+/* line 9, sass/_metodologia.sass */
+.m-trabajo .card {
+  background: #f5f5f5; }
+
+/* line 11, sass/_metodologia.sass */
+.m-trabajo p, h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1; }
+
+/* line 15, sass/_metodologia.sass */
+.img-metodologia {
+  max-height: 60px; }
+
+/* estilos iniciar sesion y crear cuenta*/
+/* line 2, sass/_iniciar-crear-cuenta.sass */
+.iniciar-sesion,
+.crear-cuenta {
+  margin-top: 80px;
+  background: #FFFFFF;
+  color: #000000; }
+
+/* line 7, sass/_iniciar-crear-cuenta.sass */
+.iniciar-sesion a {
+  color: #000000; }
+
+/* line 9, sass/_iniciar-crear-cuenta.sass */
+.iniciar-sesion a:hover {
+  color: grey; }
+
+/* line 11, sass/_iniciar-crear-cuenta.sass */
+.bloque {
+  display: inline-block; }
+
+/* line 13, sass/_iniciar-crear-cuenta.sass */
+.fa-check {
+  color: blue; }
+
+/*fin crear cuenta*/
+/* quienes somos*/
+/* line 3, sass/_quienes-somos.sass */
+.team-about, .team {
+  background: #FFFFFF;
+  margin-top: 90px; }
+
+/* line 6, sass/_quienes-somos.sass */
+.team {
+  background: #0187c3;
+  color: #FFFFFF; }
+
+/* line 9, sass/_quienes-somos.sass */
+.boton3 {
+  background: linear-gradient(20deg, #f43458, #00b2f4);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem;
+  border: 1px solid #FFFFFF; }
+
+/* line 25, sass/_quienes-somos.sass */
+.boton3:hover {
+  background: linear-gradient(20deg, #00b2f4, #f43458); }
+
+/* line 27, sass/_quienes-somos.sass */
+.img-team {
+  max-width: 150px;
+  max-height: 200px;
+  border-radius: 50%;
+  border: 3px solid  #FFFFFF; }
+
+/* line 32, sass/_quienes-somos.sass */
+.title-vision-mision {
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 1px -1px 1px;
+  margin-bottom: 0px; }
+
+/*estilos serivicios*/
+/* line 2, sass/_servicios.sass */
+.servicios {
+  margin-top: 70px;
+  background: url("../img/servicios.jpg") no-repeat center fixed;
+  background-size: cover; }
+
+/* line 6, sass/_servicios.sass */
+.tarjeta-wrap {
+  margin: 10px;
+  -webkit-perspective: 800;
+  perspective: 800; }
+
+/* line 10, sass/_servicios.sass */
+.tarjeta {
+  width: 310px;
+  height: 260px;
+  background: #ffffff;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: .5s ease;
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+  border-radius: 2%; }
+
+/* line 22, sass/_servicios.sass */
+.adelante, .atras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  color: #FFFFFF;
+  display: block; }
+
+/* line 34, sass/_servicios.sass */
+.adelante {
+  width: 100%; }
+
+/* line 37, sass/_servicios.sass */
+.atras {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  display: -webkit-block;
+  display: -webkit-block;
+  display: -ms-block;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2%;
+  text-align: center;
+  color: #fff;
+  background: #ff3a5f; }
+
+/* line 56, sass/_servicios.sass */
+.tarjeta-wrap:hover .tarjeta {
+  -webkit-transform: rotateY(180deg);
+  transform: rotatey(180deg); }
+
+/* line 59, sass/_servicios.sass */
+.boton3 {
+  background: linear-gradient(20deg, #33b5e5, #00C851);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: 375rem 75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 25rem; }
+
+/* line 74, sass/_servicios.sass */
+.boton3:hover {
+  background: linear-gradient(20deg, #00C851, #33b5e5); }
+
+/* line 76, sass/_servicios.sass */
+.img-grafico {
+  max-width: 290px; }
+
+/*section lineas de accion*/
+/* line 79, sass/_servicios.sass */
+.lineas {
+  background: #3a3a50; }
+
+/* line 81, sass/_servicios.sass */
+.lineas-items {
+  background: #00BCD4; }
+
+/* line 83, sass/_servicios.sass */
+.bloque {
+  display: inline; }
+
+/* line 85, sass/_servicios.sass */
+.linea-img {
+  max-width: 300px; }
+
+/*tarjetas planes*/
+/* line 2, sass/_tarjetas-planes.sass */
+.planes .card {
+  background: #FFFFFF;
+  border: 0;
+  width: auto;
+  height: auto;
+  position: relative;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  border-radius: 2%; }
+
+/* line 17, sass/_tarjetas-planes.sass */
+.planes .card:hover {
+  box-shadow: 0px 0px 20px grey;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); }
+
+/*estilos boton ir arriba*/
+/* line 2, sass/_ir-arriba.sass */
+.ir-arriba {
+  display: none;
+  padding: 15px;
+  background: #ff3a5f;
+  color: #FFFFFF;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+  z-index: 2;
+  border-radius: 25em; }
+
+/* line 14, sass/_ir-arriba.sass */
+.ir-arriba:hover {
+  background: #00BCD4; }
+
+/* estilos diseño web*/
+/* line 2, sass/_diseno-web.sass */
+.diseño-web {
+  background: #f2f2f2;
+  margin-top: 70px;
+  font-family: Montserrat; }
+
+/* line 6, sass/_diseno-web.sass */
+.title-diseño-web {
+  margin-top: 100px; }
+
+/* line 8, sass/_diseno-web.sass */
+.banner-title {
+  font-size: 40px;
+  color: #3a3a50;
+  font-weight: 600; }
+
+/* line 12, sass/_diseno-web.sass */
+.banner-txt {
+  color: #3a3a50; }
+
+/*mi cuenta*/
+/* line 2, sass/_mi-cuenta.sass */
+.cuenta {
+  background: #FFFFFF;
+  margin-top: 90px; }
+
+/* line 5, sass/_mi-cuenta.sass */
+.user-name {
+  background: #FAFAFA;
+  border-bottom: solid 2px #eeeeee;
+  padding: 10px; }
+
+/* section redes-sociales*/
+/* line 2, sass/_redes-sociales.sass */
+.redes-sociales {
+  background: #00BCD4;
+  color: #FFFFFF; }
+
+/* line 5, sass/_redes-sociales.sass */
+.redes-sociales .title-rds {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 33px;
+  line-height: 1;
+  letter-spacing: 0px; }
+
+/* line 12, sass/_redes-sociales.sass */
+.fa-facebook, .fa-instagram, .fa-youtube {
+  color: #FFFFFF; }
+
+/* line 15, sass/_redes-sociales.sass */
+.fa-facebook:hover {
+  color: #ECEFF1; }
+
+/* line 17, sass/_redes-sociales.sass */
+.fa-instagram:hover {
+  color: #ECEFF1; }
+
+/* line 19, sass/_redes-sociales.sass */
+.fa-youtube:hover {
+  color: #ECEFF1; }
+
+/* line 22, sass/_redes-sociales.sass */
+.fa-facebook:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 24, sass/_redes-sociales.sass */
+.fa-instagram:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/* line 26, sass/_redes-sociales.sass */
+.fa-youtube:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9); }
+
+/*section herramientas*/
+/* line 2, sass/_herramientas.sass */
+.herramientas {
+  background: url("../img/herramientas.jpg") no-repeat center fixed;
+  background-size: cover; }
+
+/* line 5, sass/_herramientas.sass */
+.herramientas .title-h {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 1;
+  letter-spacing: 0px;
+  color: #ff3a5f; }
+
+/*solicitud*/
+/* line 2, sass/_solicitud.sass */
+.title-solicitud {
+  font-size: 25px; }
