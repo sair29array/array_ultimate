@@ -1,0 +1,97 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^(Temario)$ index.php?Et_id=$1
+RewriteRule ^(Perfil)$ index.php?Et_id=$1
+RewriteRule ^(PerfilErr)$ index.php?Et_id=$1
+
+
+
+RewriteRule ^(Bienvenida)$ index.php?Watch=$1
+RewriteRule ^(1iall)$ index.php?Watch=$1
+RewriteRule ^(que-es-pseint)$ index.php?Watch=$1
+RewriteRule ^(variables-y-tipos-de-datos)$ index.php?Watch=$1
+RewriteRule ^(acciones-secuenciales)$ index.php?Watch=$1
+RewriteRule ^(actividad-1)$ index.php?Watch=$1
+RewriteRule ^(definición-y-asignación)$ index.php?Watch=$1
+RewriteRule ^(lectura-y-escritura)$ index.php?Watch=$1
+RewriteRule ^(expresiones)$ index.php?Watch=$1
+RewriteRule ^(tipos-de-operadores)$ index.php?Watch=$1
+RewriteRule ^(expresiones-anidadas)$ index.php?Watch=$1
+RewriteRule ^(actividad-2)$ index.php?Watch=$1
+RewriteRule ^(proposiciones-lógicas)$ index.php?Watch=$1
+RewriteRule ^(estructuras-básicas-de-control)$ index.php?Watch=$1
+RewriteRule ^(Condicionales)$ index.php?Watch=$1
+RewriteRule ^(bucle-mientras-y-repetir)$ index.php?Watch=$1
+RewriteRule ^(bucle-for)$ index.php?Watch=$1
+RewriteRule ^(Actividad-3)$ index.php?Watch=$1
+RewriteRule ^(subprocesos-o-subprogramas)$ index.php?Watch=$1
+RewriteRule ^(funciones)$ index.php?Watch=$1
+RewriteRule ^(Arreglos-y-cadenas)$ index.php?Watch=$1
+RewriteRule ^(Arreglos-unidimensionales)$ index.php?Watch=$1
+RewriteRule ^(Arreglos-multidimensionales)$ index.php?Watch=$1
+RewriteRule ^(Búsqueda-secuencial-de-arreglos)$ index.php?Watch=$1
+RewriteRule ^(Algoritmos-de-ordenación)$ index.php?Watch=$1
+RewriteRule ^(Ordenación-por-selección-y-por-inserción)$ index.php?Watch=$1
+RewriteRule ^(Ordenación-por-burbuja)$ index.php?Watch=$1
+RewriteRule ^(Ordenación-por-burbuja-bidireccional)$ index.php?Watch=$1
+RewriteRule ^(Proyecto-final)$ index.php?Watch=$1
+RewriteRule ^(Programación-de-juego-piedra-papel-o-tijeras)$ index.php?Watch=$1
+RewriteRule ^(fin-unidad-1)$ index.php?Watch=$1
+
+
+
+
+
+
+RewriteRule ^(Que-es-php)$ index.php?Watch=$1
+RewriteRule ^(Configuración-del-entorno-php)$ index.php?Watch=$1
+RewriteRule ^(Hola-mundo)$ index.php?Watch=$1
+RewriteRule ^(Variables-y-tipos-de-variables)$ index.php?Watch=$1
+RewriteRule ^(Constantes)$ index.php?Watch=$1
+RewriteRule ^(Conversión-de-tipos)$ index.php?Watch=$1
+RewriteRule ^(Concatenación-e-interpolación)$ index.php?Watch=$1
+RewriteRule ^(Operadores-de-comparación)$ index.php?Watch=$1
+RewriteRule ^(Operadores-aritmeticos)$ index.php?Watch=$1
+RewriteRule ^(Operadores-de-asiganación)$ index.php?Watch=$1
+RewriteRule ^(Operadores-lógicos-php)$ index.php?Watch=$1
+RewriteRule ^(Condicionales-php)$ index.php?Watch=$1
+RewriteRule ^(Sentencia-switch)$ index.php?Watch=$1
+RewriteRule ^(Bucle-while-y-do-while)$ index.php?Watch=$1
+RewriteRule ^(Bucle-for-php)$ index.php?Watch=$1
+RewriteRule ^(Foreach)$ index.php?Watch=$1
+RewriteRule ^(Array-indexado-y-asociativo)$ index.php?Watch=$1
+RewriteRule ^(Array-Multidimensional)$ index.php?Watch=$1
+RewriteRule ^(Funciones-php)$ index.php?Watch=$1
+RewriteRule ^(Argumentos-de-funciones)$ index.php?Watch=$1
+RewriteRule ^(Return)$ index.php?Watch=$1
+RewriteRule ^(Funciones-variables-y-anonimas)$ index.php?Watch=$1
+RewriteRule ^(Declaraciones-de-tipo-escalar)$ index.php?Watch=$1
+
+
+
+
+RewriteRule ^(Introducción-a-la-POO)$ index.php?Watch=$1
+RewriteRule ^(Clases-y-objetos)$ index.php?Watch=$1
+RewriteRule ^(Instancias)$ index.php?Watch=$1
+RewriteRule ^(Herencia)$ index.php?Watch=$1
+RewriteRule ^(Cookie-y-Session)$ index.php?Watch=$1
+RewriteRule ^(Session)$ index.php?Watch=$1
+RewriteRule ^(Cookie)$ index.php?Watch=$1
+RewriteRule ^(Namespace)$ index.php?Watch=$1
+RewriteRule ^(Clases-anonimas)$ index.php?Watch=$1
+RewriteRule ^(CSPRNG-y-función-intdiv)$ index.php?Watch=$1
+RewriteRule ^(Serialize-y-unserialize)$ index.php?Watch=$1
+
+
+
+
+RewriteRule ^(Diferencia-entre-las-apps-web-y-las-páginas-web)$ index.php?Watch=$1
+RewriteRule ^(MVC-y-comienzo-de-proyecto)$ index.php?Watch=$1
+RewriteRule ^(Creando-un-login)$ index.php?Watch=$1
+RewriteRule ^(Registro-de-usuarios)$ index.php?Watch=$1
+RewriteRule ^(Recuperando-credenciales)$ index.php?Watch=$1
+RewriteRule ^(Categorías-de-foros)$ index.php?Watch=$1
+RewriteRule ^(Creación-de-foros)$ index.php?Watch=$1
+RewriteRule ^(URLs-Amigables)$ index.php?Watch=$1
+
