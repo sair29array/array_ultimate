@@ -19,7 +19,7 @@
                                     ?> <strong>Bienvenid@</strong> <?php 
                                 }else{
                                     if ($user_["dealta"] == 0) {
-                                       ?> <strong>BIienvenid</strong><hr class="white"><p class="h4">Activa tu cuenta desde tu correo.</p> <?php 
+                                       ?> <strong>BIienvenid@</strong><hr class="white"><p class="h4">Activa tu cuenta desde tu correo.</p> <?php 
                                     }else{
                                         ?> <strong>Hola, Bienvenido</strong> <?php
                                     }

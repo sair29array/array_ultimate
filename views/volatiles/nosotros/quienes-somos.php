@@ -83,9 +83,10 @@
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 text-justify wow fadeInUp" data-wow-delay="0.3s">
                     <h1 class="h1-responsive mb-2 mt-0 text-center blue-text">Somos expertos en TIC</h1>
-                    <p>Somos una empresa colombiana cuyo objetivo principal es trabajar con TIC (Tecnologías de la Información y las Comunicaciones) desarrollando mejores herramientas que facilitan el trabajo diario de cualquier empresa.
-                    Creamos herramientas que ayudan a mejorar las tareas diarias de muchas empresas.
-                    Brindamos excelentes servicios con calidad y cumplimiento, realmente amamos lo que hacemos y nuestro trabajo en cada proyecto verdaderamente refleja eso.
+                    <p>Somos una empresa conformada por jóvenes emprendedores, la cual brinda soluciones
+                    empresariales a través de TIC, para fortalecer procesos de sistematización y divulgación de
+                    información. Nuestro equipo de expertos cuenta con las mejores herramientas para ayudarte a
+                    mejorar las condiciones de trabajo en tu empresa.
                     </p>
                     <div class="text-center">
                     <a href="#nuestro-equipo">
