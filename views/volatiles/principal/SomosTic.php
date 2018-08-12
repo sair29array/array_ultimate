@@ -12,7 +12,7 @@
                     <div class="col-12 col-md-4 col-lg-4 text-center wow zoomIn" data-wow-delay="0.3s">
                         <img class="img img-fluid somos_about_img" src="img//icons/icon-world.png" alt="planeta">
                         <p class="mb-5 mt-3 text-center">
-                            Somos una empresa colombiana cuyo objetivo principal es trabajar con TICs (Tecnologias de la Información y las Comunicaciones)
+                            Somos una empresa colombiana cuyo objetivo principal es trabajar con TIC (Tecnologias de la Información y las Comunicaciones)
                             desarrollando mejores herramientas que facilitan el trabajo diario de muchas empresas.
                         </p>
                     </div>
@@ -20,7 +20,7 @@
                         <img class="img img-fluid somos_about_img" src="img//icons/icon-calidad.png" alt="calidad">
                         <p class="mb-5 mt-3 text-center">
                             Al preferirnos, notarás que nuestros servicios y productos cumplen con los estándares 
-                            de cálidad. Nuestra experiencia con las TICs nos permiten constantemente
+                            de cálidad. Nuestra experiencia con las TIC nos permiten constantemente
                             actualizar nuestros sistemas a las cambiantes
                             necesidades del mundo actual. 
                         </p>
