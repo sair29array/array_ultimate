@@ -1,12 +1,21 @@
 <?php  ?>
    <!-- servicios -->
    <section class="servicios">
+     <div class=" col-12 text-center mt-5  mb-4 wow zoomIn " data-wow-delay="0.4s">
+                 <div class=" card-body elegant-color white-text rounded-bottom">
+                    <h5 class="h5-responsive mb-0 mt-4"><strong>Desarrollamos socluciones empresariales a través de TIC, para fortalecer los procesos de sistematización y divulgación de información.</strong></h5>
+                 </div>
+            </div>
         <div class="container">
+
             <div class="row justify-content-center blue-text">
-            <div class=" col-12 text-center mt-5 mb-4 wow zoomIn " data-wow-delay="0.4s">
+            <!--div class=" col-12 text-center mt-5 mb-4 wow zoomIn " data-wow-delay="0.4s">
                 <h2 class="h2-responsive mb-0"><strong>Ayudamos a las empresas a modernizar sus herramientas de trabajo y a realizar su transformación digital.</strong></h2>
                 
-            </div>
+            </div-->
+           
+
+
                 <div class="tarjeta-wrap wow zoomIn" data-wow-delay="0.3s">
                     <div class="tarjeta">
                         <div class="adelante text-center">
