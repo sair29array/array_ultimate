@@ -60,13 +60,13 @@
     </div>
     <div class="wow zoomIn " data-wow-delay="0.4s">
         <!--Carousel Wrapper-->
-        <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+        
             
             <iframe width="560" height="315" src="https://www.youtube.com/embed/WF_EXinpgaQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 
                
             
-        </div>
+        
         <!--Carousel Wrapper-->
         <div class="col-12 text-center">
                 <a target="blank_" href="https://api.whatsapp.com/send?phone=573218070767"  class="boton-c btn btn-lg py-2 px-5 wow zoomIn" data-wow-delay="0.4s"> Contratar</a >
