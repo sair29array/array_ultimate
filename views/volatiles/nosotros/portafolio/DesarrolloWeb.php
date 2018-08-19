@@ -2,60 +2,71 @@
  <!--Section: Team v.3-->
  <section class="team-section pb-4 ">
         
-       
+
+
+        
         <div class="row mb-lg-4 text-center text-md-left">
-
-            <!--Grid column-->
+           <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4">
+                <div class="col-md-6 float-left">
+                    <div class="avatar mx-auto">
+                        <img src="img/portafolio_proyectos/dev_recursos/dentad.png" class="rounded img-fluid z-depth-1" alt="Fifth sample avatar image">
+                    </div>
+                </div>
 
+                <div class="col-md-6 float-right">
+                    <h4>
+                        <strong>Dentad Online</strong>
+                    </h4>
+                    <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://dentad.online/">https://dentad.online/</a></h6>
+                    <p class="grey-text">Dentad es un software online para clínicas odontológicas.</p>
+                </div>
+            </div>
+            <!--Grid column-->
+
+            <div class="col-lg-6 col-md-12 mb-4">
                 <div class="col-md-6 float-left">
                     <div class="avatar mx-auto">
                         <img src="img/portafolio_proyectos/dev_recursos/rentcars.png" class="rounded img-fluid z-depth-1" alt="First sample avatar image">
                     </div>
                 </div>
-
                 <div class="col-md-6 float-right">
                     <h4>
                         <strong>RentCars</strong>
                     </h4>
                     <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://rentcars4u.com/">https://rentcars4u.com/</a></h6>
                     <p class="grey-text">Las principales rentadoras de vehículos en un solo sitio .</p>
-
-                   
                 </div>
-
             </div>
             <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+
+
+
+       
+        <div class="row mb-lg-4 text-center text-md-left">
+            
 
             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4">
-
                 <div class="col-md-6 float-left">
                     <div class="avatar mx-auto">
                         <img src="img/portafolio_proyectos/dev_recursos/mobiliarios-farmasa.png" class="rounded img-fluid z-depth-1" alt="Second sample avatar image">
                     </div>
                 </div>
-
                 <div class="col-md-6 float-right">
                     <h4>
                         <strong>Mobiliarios Famarsa</strong>
                     </h4>
                     <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="https://mobiliariosfamarsa.com/">https://mobiliariosfamarsa.com/</a></h6>
                     <p class="grey-text">Muebles de Oficina y para Negocios.</p>
-
-                  
                 </div>
-
             </div>
             <!--Grid column-->
 
-        </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row text-center text-md-left">
-
-            <!--Grid column-->
+             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4">
 
                 <div class="col-md-6 float-left">
@@ -76,6 +87,13 @@
 
             </div>
             <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+        <!--Grid row-->
+        <div class="row text-center text-md-left">
+
+           
 
             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4">
@@ -129,15 +147,12 @@
                         <img src="img/portafolio_proyectos/dev_recursos/historias-no-contadas.png" class="rounded img-fluid z-depth-1" alt="Fifth sample avatar image">
                     </div>
                 </div>
-
                 <div class="col-md-6 float-right">
                     <h4>
                         <strong>Historias no contadas</strong>
                     </h4>
                     <h6 class="font-weight-bold grey-text mb-4"><a target="blank_" href="http://historiasnocontadas.com/">http://historiasnocontadas.com/</a></h6>
                     <p class="grey-text">...</p>
-
-                
                 </div>
 
             </div>
@@ -145,6 +160,12 @@
 
         </div>
         <!--Grid row-->
+
+
+
+
+         
+
 
     </section>
     <!--Section: Team v.3-->
