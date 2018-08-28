@@ -15,8 +15,7 @@
                                 <strong>Misión</strong>
                             </h1>
                             <p class="m-4 d-none d-md-block">
-                                <strong>Proveer soluciones elaboradas con Tecnologías de la Información y las Comunicaciones que resuelvan necesidades que surgen en diversas organizaciones, utilizando la programación de sistemas, la producción 
-                                audiovisual y el soporte técnico, los cuales son aptitudes del talento humano que posee nuestra empresa, comprometidos con la calidad y el cumplimiento eficaz y eficiente para apoyar la productividad de nuestros clientes.
+                                <strong>Desarrollar soluciones empresariales a través de las tecnologías de la información y las comunicaciones para fortalecer procesos de sistematización y divulgación de información.
                             </strong>
                             </p>
                             
@@ -45,7 +44,7 @@
                                 <strong>Visión</strong>
                             </h1>
                             <p class="m-4 d-none d-md-block">
-                                <strong>Ser una de las compañías más importantes en el departamento de Córdoba, preferida por la calidad en nuestra prestación de servicios y productos en el ámbito de la informática, especializada en dar soluciones a través de la investigación e innovación, abarcando todos los sectores de la sociedad actual.</strong>
+                                <strong>Ser considerados por nuestros clientes y aliados estratégicos como una organización que ofrece soluciones basadas principalmente en la innovación, tecnología avanzada, servicio y calidad que supere sus expectativas, además la capacidad de crear novedosos productos con un valor agregado.</strong>
                             </p>
                            
                             <div class="row justify-content-center">
@@ -164,13 +163,12 @@
             <div class="row justify-content-center">
             <div class="col-11 mt-5 wow zoomIn" data-wow-delay="0.6s">
                     <h2 class="h1-responsive title-vision-mision text-center blue-text">Misión <i class="fas fa-cogs"></i></h2>
-                    <p class="lead text-justify">Proveer soluciones elaboradas con Tecnologías de la Información y las Comunicaciones que resuelvan necesidades que surgen en diversas organizaciones, utilizando la programación de sistemas, la producción 
-                                audiovisual y el soporte técnico, los cuales son aptitudes del talento humano que posee nuestra empresa, comprometidos con la calidad y el cumplimiento eficaz y eficiente para apoyar la productividad de nuestros clientes.</p>
+                    <p class="lead text-justify">Desarrollar soluciones empresariales a través de las tecnologías de la información y las comunicaciones para fortalecer procesos de sistematización y divulgación de información.</p>
                     <hr>
                 </div>
                 <div class="col-11 mt-5 wow zoomIn" data-wow-delay="0.5s">
                     <h2 class="h1-responsive title-vision-mision blue-text text-center">Visión <i class="fas fa-eye"></i></h2>
-                    <p class="lead text-justify">Ser una de las compañías más importantes en el departamento de Córdoba, preferida por la calidad en nuestra prestación de servicios y productos en el ámbito de la informática, especializada en dar soluciones a través de la investigación e innovación, abarcando todos los sectores de la sociedad actual.</p>
+                    <p class="lead text-justify">Ser considerados por nuestros clientes y aliados estratégicos como una organización que ofrece soluciones basadas principalmente en la innovación, tecnología avanzada, servicio y calidad que supere sus expectativas, además la capacidad de crear novedosos productos con un valor agregado.</p>
                     <hr>
                 </div>
                 
